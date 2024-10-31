@@ -1,4 +1,4 @@
-import { service } from "@/drive";
+import { getDriveService } from "@/drive";
 import { drive_v3 } from "@googleapis/drive";
 import { WriteStream } from "fs";
 
@@ -14,6 +14,7 @@ export const getGoogleDriveFile = async ({
 
   console.log(`downloading file ${name || id}`);
 
+  const service = await getDriveService();
   const { data } = await service.files.get({
     fileId: id,
     alt: "media",

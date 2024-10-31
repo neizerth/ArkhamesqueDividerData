@@ -84,3 +84,30 @@ export const createJSONResolver = (dir: string) => createFilenameResolver(dir, '
 export const mkDir = (dir: string) => !fs.existsSync(dir) && fs.mkdirSync(dir); 
 
 export const rmDir = (dir: string) => fs.existsSync(dir) && fs.rmSync(dir, { recursive: true }); 
+
+export const flattenDir = (dir: string, moveToDir?: string) => {
+  const contents = fs.readdirSync(dir);
+
+  console.log('flattenDir', dir);
+
+  for (const name of contents) {
+    const item = path.join(dir, name);
+    const stat = fs.lstatSync(item);
+
+    if (stat.isDirectory()) {
+      flattenDir(item, moveToDir || dir);
+      continue;
+    }
+
+    if (!moveToDir) {
+      continue;
+    }
+    const movePath = path.join(moveToDir, name);
+    // console.log(item, movePath);
+    fs.renameSync(item, movePath);
+  }
+
+  if (moveToDir) {
+    fs.rmdirSync(dir);
+  }
+}

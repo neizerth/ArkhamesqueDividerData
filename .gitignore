@@ -28,3 +28,4 @@ cache
 build
 
 .env
+/credentials.json

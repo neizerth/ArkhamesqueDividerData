@@ -12,10 +12,12 @@
   "license": "ISC",
   "dependencies": {
     "@googleapis/drive": "^8.14.0",
+    "decompress": "^4.2.1",
     "dotenv": "^16.4.5",
     "tsx": "^4.19.2"
   },
   "devDependencies": {
+    "@types/decompress": "^4.2.7",
     "@types/node": "^22.8.5"
   }
 }
