@@ -1,0 +1,40 @@
+[
+  {
+    "id": "core",
+    "scenarios": [
+      { "name": "the_gathering" },
+      { "name": "the_midnight_masks" },
+      { "name": "the_devourer_below" }
+    ]
+  },
+  {
+    "id": "rtcore",
+    "scenarios": [
+      { 
+        "name": "return_to_the_gathering",
+        "link": "the_gathering"
+      },
+      { 
+        "name": "return_to_the_midnight_masks",
+        "link": "the_midnight_masks"
+      },
+      { 
+        "name": "return_to_the_devourer_below",
+        "link": "the_devourer_below"
+      }
+    ]
+  },
+  {
+    "id": "dwl",
+    "scenarios": [
+      { "name": "extracurricular_activity" },
+      { "name": "the_house_always_wins" },
+      { "name": "the_miskatonic_museum" },
+      { "name": "essex_county_express" },
+      { "name": "blood_on_the_altar" },
+      { "name": "undimensioned_and_unseen" },
+      { "name": "where_doom_awaits" },
+      { "name": "where_doom_awaits" }
+    ]
+  }
+]

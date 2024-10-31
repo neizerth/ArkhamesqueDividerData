@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "declaration": true,
+    // "skipLibCheck": true,
+    "moduleResolution": "Node",
+    // "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true,
+    // "noEmit": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "outDir": "./build"
+  },
+  "exclude": [ "node_modules" ],
+  "include": [
+    "./src/**/*"
+  ],
+}
