@@ -4,35 +4,35 @@
   "scenarios": [
     {
       "code": "beyond_the_gates_of_sleep",
-      "name": "01"
+      "name": "-01"
     },
     {
       "code": "waking_nightmare",
-      "name": "02"
+      "name": "-02"
     },
     {
       "code": "the_search_for_kadath",
-      "name": "03-SearchforKadath"
+      "name": "-03-SearchforKadath"
     },
     {
       "code": "a_thousand_shapes_of_horror",
-      "name": "04-ThousandShapes"
+      "name": "-04-ThousandShapes"
     },
     {
       "code": "dark_side_of_the_moon",
-      "name": "05-DarkSideoftheMoon"
+      "name": "-05-DarkSideoftheMoon"
     },
     {
       "code": "point_of_no_return",
-      "name": "06-PointofNoReturn"
+      "name": "-06-PointofNoReturn"
     },
     {
       "code": "where_the_gods_dwell",
-      "name": "07-WheretheGodsDwell"
+      "name": "-07-WheretheGodsDwell"
     },
     {
       "code": "weaver_of_the_cosmos",
-      "name": "08-WeaveroftheCosmos"
+      "name": "-08-WeaveroftheCosmos"
     }
   ],
   "campaigns": [

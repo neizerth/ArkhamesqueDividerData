@@ -8,42 +8,42 @@
         "the_untamed_wilds",
         "return_to_the_untamed_wilds"
       ],
-      "name": "01-UntamnedWilds"
+      "name": "-01-UntamnedWilds"
     },
     {
       "codes": [
         "the_doom_of_eztli",
         "return_to_the_doom_of_eztli"
       ],
-      "name": "02-DoomofEztli"
+      "name": "-02-DoomofEztli"
     },
     {
       "codes": [
         "threads_of_fate",
         "return_to_threads_of_fate"
       ],
-      "name": "03-ThreadsofFate"
+      "name": "-03-ThreadsofFate"
     },
     {
       "codes": [
         "the_boundary_beyond",
         "return_to_the_boundary_beyond"
       ],
-      "name": "04-BoundaryBeyond"
+      "name": "-04-BoundaryBeyond"
     },
     {
       "codes": [
         "heart_of_the_elders",
         "return_to_heart_of_the_elders"
       ],
-      "name": "05-HeartoftheElders"
+      "name": "-05-HeartoftheElders"
     },
     {
       "codes": [
         "shattered_aeons",
         "return_to_shattered_aeons"
       ],
-      "name": "06-ShatteredAeons"
+      "name": "-06-ShatteredAeons"
     }
   ]
 }

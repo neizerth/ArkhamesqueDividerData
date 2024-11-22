@@ -4,35 +4,35 @@
   "scenarios": [
     {
       "code": "written_in_rock",
-      "name": "2-WIR"
+      "name": "-2-WIR"
     },
     {
       "code": "hemlock_house",
-      "name": "3-HH"
+      "name": "-3-HH"
     },
     {
       "code": "the_silent_heth",
-      "name": "4-TSH"
+      "name": "-4-TSH"
     },
     {
       "code": "the_lost_sister",
-      "name": "5-TLS"
+      "name": "-5-TLS"
     },
     {
       "code": "the_thing_in_the_depths",
-      "name": "6-TTNTD"
+      "name": "-6-TTNTD"
     },
     {
       "code": "the_twisted_hollow",
-      "name": "7-TTH"
+      "name": "-7-TTH"
     },
     {
       "code": "the_longest_night",
-      "name": "8-TLN"
+      "name": "-8-TLN"
     },
     {
       "code": "fate_of_the_vale",
-      "name": "9-FTV"
+      "name": "-9-FTV"
     }
   ]
 }

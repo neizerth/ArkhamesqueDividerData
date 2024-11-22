@@ -8,63 +8,63 @@
         "disappearance_at_the_twilight_estate",
         "return_to_disappearance_at_the_twilight_estate"
       ],
-      "name": "00-Disappearance"
+      "name": "-00-Disappearance"
     },
     {
       "codes": [
         "the_witching_hour",
         "return_to_the_witching_hour"
       ],
-      "name": "01-WitchingHour"
+      "name": "-01-WitchingHour"
     },
     {
       "codes": [
         "at_deaths_doorstep",
         "return_to_at_deaths_doorstep"
       ],
-      "name": "02-DeathsDoorstep"
+      "name": "-02-DeathsDoorstep"
     },
     {
       "codes": [
         "the_secret_name",
         "return_to_the_secret_name"
       ],
-      "name": "03-SecretName"
+      "name": "-03-SecretName"
     },
     {
       "codes": [
         "the_wages_of_sin",
         "return_to_the_wages_of_sin"
       ],
-      "name": "04-Wages-of-Sin"
+      "name": "-04-Wages-of-Sin"
     },
     {
       "codes": [
         "for_the_greater_good",
         "return_to_for_the_greater_good"
       ],
-      "name": "05-GreaterGood"
+      "name": "-05-GreaterGood"
     },
     {
       "codes": [
         "union_and_disillusion",
         "return_to_union_and_disillusion"
       ],
-      "name": "06-UnionandDisillusion"
+      "name": "-06-UnionandDisillusion"
     },
     {
       "codes": [
         "in_the_clutches_of_chaos",
         "return_to_in_the_clutches_of_chaos"
       ],
-      "name": "07-ClutchesofChaos"
+      "name": "-07-ClutchesofChaos"
     },
     {
       "codes": [
         "before_the_black_throne",
         "return_to_before_the_black_throne"
       ],
-      "name": "08-BlackThrone"
+      "name": "-08-BlackThrone"
     }
   ]
 }

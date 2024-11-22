@@ -4,46 +4,46 @@
   "scenarios": [
     {
       "code": "riddles_and_rain",
-      "name": "01"
+      "name": "-01"
     },
     {
       "code": "dead_heat",
-      "name": "02",
+      "name": "-02",
       "number_text": "11–B"
     },
     {
       "code": "sanguine_shadows",
-      "name": "03",
+      "name": "-03",
       "number_text": "16–D"
     },
     {
       "code": "dealings_in_the_dark",
-      "name": "04",
+      "name": "-04",
       "number_text": "21–F"
     },
     {
       "code": "dancing_mad",
-      "name": "05",
+      "name": "-05",
       "number_text": "28–I"
     },
     {
       "code": "on_thin_ice",
-      "name": "06",
+      "name": "-06",
       "number_text": "33–K"
     },
     {
       "code": "dogs_of_war",
-      "name": "07",
+      "name": "-07",
       "number_text": "38–N"
     },
     {
       "code": "shades_of_suffering",
-      "name": "08",
+      "name": "-08",
       "number_text": "46–Q"
     },
     {
       "code": "without_a_trace",
-      "name": "09",
+      "name": "-09",
       "number_text": "56–Y"
     },
     {

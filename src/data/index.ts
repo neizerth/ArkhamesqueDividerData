@@ -2,6 +2,6 @@ import { IArkhamesqueBuild } from '@/types';
 import stories from './stories';
 
 export default {
-  prefix: 'ACHD',
+  prefix: 'ACHD-',
   stories
 } as IArkhamesqueBuild;

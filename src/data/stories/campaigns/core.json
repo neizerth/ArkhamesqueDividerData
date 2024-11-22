@@ -8,21 +8,21 @@
         "torch",
         "return_to_the_gathering"
       ],
-      "name": "01"
+      "name": "-01"
     },
     {
       "codes": [
         "arkham",
         "return_to_the_midnight_masks"
       ],
-      "name": "02"
+      "name": "-02"
     },
     {
       "codes": [
         "tentacles",
         "return_to_the_devourer_below"
       ],
-      "name": "03"
+      "name": "-03"
     }
   ]
 }

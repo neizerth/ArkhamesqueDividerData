@@ -8,56 +8,56 @@
         "the_pit_of_despair",
         "zreturn_to_the_pit_of_despair"
       ],
-      "name": "01"
+      "name": "-01"
     },
     {
       "codes": [
         "the_vanishing_of_elina_harper",
         "zreturn_to_the_vanishing_of_elina_harper"
       ],
-      "name": "02"
+      "name": "-02"
     },
     {
       "codes": [
         "in_too_deep",
         "zreturn_to_in_too_deep"
       ],
-      "name": "03"
+      "name": "-03"
     },
     {
       "codes": [
         "devil_reef",
         "zreturn_to_devil_reef"
       ],
-      "name": "04"
+      "name": "-04"
     },
     {
       "codes": [
         "horror_in_high_gear",
         "zreturn_to_horror_in_high_gear"
       ],
-      "name": "05"
+      "name": "-05"
     },
     {
       "codes": [
         "a_light_in_the_fog",
         "zreturn_to_a_light_in_the_fog"
       ],
-      "name": "06"
+      "name": "-06"
     },
     {
       "codes": [
         "the_lair_of_dagon",
         "zreturn_to_the_lair_of_dagon"
       ],
-      "name": "07"
+      "name": "-07"
     },
     {
       "codes": [
         "into_the_maelstrom",
         "zreturn_to_into_the_maelstrom"	
       ],
-      "name": "08"
+      "name": "-08"
     }
   ]
 }

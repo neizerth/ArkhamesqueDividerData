@@ -15,17 +15,17 @@ export type IArkhamesqueStory = {
   scenarios?: IArkhamesqueStoryScenario[]
 }
 
-type HasCode = {
+export type IArkhamesqueStoryScenarioWithCode = IBaseScenario & {
   code: string
 }
 
-type HasMultipleCodes = {
+export type IArkhamesqueStoryScenarioWithMultipleCodes = IBaseScenario & {
   codes: string[]
 }
 
-type WithCode = HasCode | HasMultipleCodes
-
-export type IArkhamesqueStoryScenario = {
+export type IBaseScenario = {
   name: string;
   number_text?: string;
-} & WithCode;
+}
+
+export type IArkhamesqueStoryScenario = IArkhamesqueStoryScenarioWithCode | IArkhamesqueStoryScenarioWithMultipleCodes;
