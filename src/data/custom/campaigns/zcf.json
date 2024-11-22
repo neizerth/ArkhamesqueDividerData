@@ -1,0 +1,38 @@
+{
+  "code": "zcp",
+  "name": "CallotPlaguebearer",
+  "scenarios": [
+    {
+      "code": "late_risers",
+      "name": "1"
+    },
+    {
+      "code": "night_on_the_town",
+      "name": "2"
+    },
+    {
+      "code": "dead_by_dawn",
+      "name": "3"
+    },
+    {
+      "code": "mourning_chorus",
+      "name": "4"
+    },
+    {
+      "code": "high_noon_descent",
+      "name": "5"
+    },
+    {
+      "code": "the_afternoon_war",
+      "name": "6"
+    },
+    {
+      "code": "death_at_sundown",
+      "name": "7"
+    },
+    {
+      "code": "the_midnight_hour",
+      "name": "8"
+    }
+  ]
+}

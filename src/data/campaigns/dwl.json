@@ -1,0 +1,63 @@
+{
+  "code": "dwl",
+  "name": "02-Dunwich",
+  "return_name": "2",
+  "scenarios": [
+    {
+      "codes": [
+        "extracurricular_activity",
+        "return_to_extracurricular_activities"
+      ],
+      "name": "01-Extracurricular"
+    },
+    {
+      "codes": [
+        "the_house_always_wins",
+        "return_to_the_house_always_wins"
+      ],
+      "name": "01-House"
+    },
+    {
+      "codes": [
+        "the_miskatonic_museum",
+        "return_to_the_miskatonic_museum"
+      ],
+      "name": "01-Museum"
+    },
+    {
+      "codes": [
+        "essex_county_express",
+        "return_to_essex_county_express"
+      ],
+      "name": "02-Express"
+    },
+    {
+      "codes": [
+        "blood_on_the_altar",
+        "return_to_blood_on_the_altar"
+      ],
+      "name": "03-Blood"
+    },
+    {
+      "codes": [
+        "undimensioned_and_unseen",
+        "return_to_undimensioned_and_unseen"
+      ],
+      "name": "04-Undimensioned"
+    },
+    {
+      "codes": [
+        "where_doom_awaits",
+        "return_to_where_doom_awaits"
+      ],
+      "name": "05-Doom"
+    },
+    {
+      "codes": [
+        "lost_in_time_and_space",
+        "return_to_lost_in_time_and_space"
+      ],
+      "name": "06-Lost"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "code": "zdm",
+  "name": "DarkMatter",
+  "scenarios": [
+    {
+      "code": "the_tatterdemalion",
+      "name": "1"
+    },
+    {
+      "code": "electric_nightmare",
+      "name": "2"
+    },
+    {
+      "code": "lost_quantum",
+      "name": "3"
+    },
+    {
+      "code": "in_the_shadow_of_earth",
+      "name": "4"
+    },
+    {
+      "code": "strange_moons",
+      "name": "5"
+    },
+    {
+      "code": "the_machine_in_yellow",
+      "name": "6"
+    },
+    {
+      "code": "fragment_of_carcosa",
+      "name": "7"
+    },
+    {
+      "code": "starfall",
+      "name": "8"
+    }
+  ]
+}

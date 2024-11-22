@@ -1,0 +1,34 @@
+{
+  "code": "ages_unwound",
+  "name": "AgesUnwound",
+  "scenarios": [
+    {
+      "code": "ages_unwound-night_of_fire",
+      "name": "1"
+    },
+    {
+      "code": "ages_unwound-the_myriad_gentleman",
+      "name": "2"
+    },
+    {
+      "code": "ages_unwound-a_world_torn_down",
+      "name": "3"
+    },
+    {
+      "code": "ages_unwound-unstuck",
+      "name": "4"
+    },
+    {
+      "code": "ages_unwound-a_year_to_plan",
+      "name": "5"
+    },
+    {
+      "code": "ages_unwound-a_world_torn_down_again",
+      "name": "6"
+    },
+    {
+      "code": "ages_unwound-time_runs_out",
+      "name": "7"
+    }
+  ]
+}

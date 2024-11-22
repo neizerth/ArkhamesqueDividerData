@@ -1,0 +1,28 @@
+{
+  "code": "core",
+  "name": "01-Zealot",
+  "return_name": "2",
+  "scenarios": [
+    {
+      "codes": [
+        "torch",
+        "return_to_the_gathering"
+      ],
+      "name": "01"
+    },
+    {
+      "codes": [
+        "arkham",
+        "return_to_the_midnight_masks"
+      ],
+      "name": "02"
+    },
+    {
+      "codes": [
+        "tentacles",
+        "return_to_the_devourer_below"
+      ],
+      "name": "03"
+    }
+  ]
+}

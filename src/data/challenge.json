@@ -1,0 +1,26 @@
+[
+	{
+		"code": "all_or_nothing",
+		"name": "AllOrNothing",
+	},
+	{
+		"code": "bad_blood",
+		"name": "BadBlood"
+	},
+	{
+		"code": "by_the_book",
+		"name": "ByTheBook"
+	},
+	{
+		"code": "laid_to_rest",
+		"name": "LaidToRest"
+	},
+	{
+		"code": "read_or_die",
+		"name": "ReadOrDie"
+	},
+	{
+		"code": "red_tide_rising",
+		"name": "RedTideRising"
+	}
+]

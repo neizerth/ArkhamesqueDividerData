@@ -1,0 +1,62 @@
+[
+	{
+    "code": "the_legend_of_sleepy_hollow",
+    "name": "SleepyHollow"
+  },
+  {
+    "code": "zhu",
+    "name": "HouseOfUsher"
+  },
+  {
+    "code": "the_nameless_city",
+    "name": "NamelessCity"
+  },
+  {
+    "code": "zcos",
+    "name": "TheColourOutofSpace"
+  },
+  {
+    "code": "the_grand_oak_hotel",
+    "name": "TheGrandOakHotel"
+  },
+  {
+    "code": "blood_spilled_in_salem",
+    "name": "BloodSpilled"
+  },
+  {
+    "code": "zez",
+    "name": "ErichZann"
+  },
+  {
+    "code": "zjc",
+    "name": "JennysChoice"
+  },
+  {
+    "code": "stranger_things",
+    "name": "StrangerThings"
+  },
+  {
+    "code": "the_limens_of_belief",
+    "name": "Limens"
+  },
+  {
+    "code": "knightfall",
+    "name": "Knightfall"
+  },
+  {
+    "code": "zcc",
+    "name": "Constellation"
+  },
+  {
+    "code": "zatw",
+    "name": "Wendigo"
+  },
+  {
+    "code": "the_collector",
+    "name": "Collector"
+  },
+  {
+    "code": "the_festival",
+    "name": "Festival"
+  }
+]

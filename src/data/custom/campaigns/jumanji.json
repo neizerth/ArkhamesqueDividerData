@@ -1,0 +1,22 @@
+{
+  "code": "jumanji",
+  "name": "Jumanji",
+  "scenarios": [
+    {
+      "code": "jumanji-home_invasion",
+      "name": "1"
+    },
+    {
+      "code": "jumanji-urban_jungle",
+      "name": "2"
+    },
+    {
+      "code": "jumanji-game_night",
+      "name": "3"
+    },
+    {
+      "code": "jumanji-force_of_nature",
+      "name": "4"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "code": "north_country_cycle",
+  "name": "NorthCountry",
+  "scenarios": [
+    {
+      "code": "north_country_cycle-wrotham_backcountry",
+      "name": "1"
+    },
+    {
+      "code": "north_country_cycle-wrotham_township",
+      "name": "2"
+    },
+    {
+      "code": "north_country_cycle-north_woodsz",
+      "name": "3"
+    }
+  ]
+}

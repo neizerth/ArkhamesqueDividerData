@@ -22,10 +22,10 @@ export const downloadImages = async () => {
       continue;
     }
 
-    // const filePath = await downloadSingle(file);
+    const filePath = await downloadSingle(file);
 
-    // await decompress(filePath, CACHED_IMAGES_DIR);
-    // fs.unlinkSync(filePath);
+    await decompress(filePath, CACHED_IMAGES_DIR);
+    fs.unlinkSync(filePath);
   }
 
   flattenDir(CACHED_IMAGES_DIR);

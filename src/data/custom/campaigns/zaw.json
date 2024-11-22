@@ -1,0 +1,38 @@
+{
+  "code": "zaw",
+  "name": "AliceinWonderland",
+  "scenarios": [
+    {
+      "code": "arkham_in_wonderland",
+      "name": "1"
+    },
+    {
+      "code": "a_sea_of_troubles",
+      "name": "2"
+    },
+    {
+      "code": "tempest_in_a_teapot",
+      "name": "3"
+    },
+    {
+      "code": "bleeding_hearts",
+      "name": "4"
+    },
+    {
+      "code": "wild_snark_chase",
+      "name": "5"
+    },
+    {
+      "code": "sibling_rivalry",
+      "name": "6"
+    },
+    {
+      "code": "fools_mate",
+      "name": "7"
+    },
+    {
+      "code": "lucid_nightmare",
+      "name": "8"
+    }
+  ]
+}

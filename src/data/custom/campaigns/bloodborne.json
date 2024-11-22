@@ -1,0 +1,38 @@
+{
+  "code": "bloodborne",
+  "name": "Bloodborne",
+  "scenarios": [
+    {
+      "code": "bloodborne-the_hunt_begins",
+      "name": "1"
+    },
+    {
+      "code": "bloodborne-fear_the_old_blood",
+      "name": "2"
+    },
+    {
+      "code": "bloodborne-night_unending",
+      "name": "3"
+    },
+    {
+      "code": "bloodborne-the_frailty_of_men",
+      "name": "4"
+    },
+    {
+      "code": "bloodborne-the_altar_of_despair",
+      "name": "5"
+    },
+    {
+      "code": "bloodborne-a_call_beyond",
+      "name": "6"
+    },
+    {
+      "code": "bloodborne-communion",
+      "name": "7"
+    },
+    {
+      "code": "bloodborne-arkham_sunrise",
+      "name": "8"
+    }
+  ]
+}

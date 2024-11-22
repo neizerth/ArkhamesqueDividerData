@@ -1,0 +1,38 @@
+{
+  "code": "fhv",
+  "name": "10-TheFeastofHemlockVale",
+  "scenarios": [
+    {
+      "code": "written_in_rock",
+      "name": "2-WIR"
+    },
+    {
+      "code": "hemlock_house",
+      "name": "3-HH"
+    },
+    {
+      "code": "the_silent_heth",
+      "name": "4-TSH"
+    },
+    {
+      "code": "the_lost_sister",
+      "name": "5-TLS"
+    },
+    {
+      "code": "the_thing_in_the_depths",
+      "name": "6-TTNTD"
+    },
+    {
+      "code": "the_twisted_hollow",
+      "name": "7-TTH"
+    },
+    {
+      "code": "the_longest_night",
+      "name": "8-TLN"
+    },
+    {
+      "code": "fate_of_the_vale",
+      "name": "9-FTV"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "code": "ptc",
+  "name": "03-Carcosa",
+  "return_name": "2",
+  "scenarios": [
+    {
+      "codes": [
+        "curtain_call",
+        "return_to_curtain_call"
+      ],
+      "name": "01-CurtainCall"
+    },
+    {
+      "codes": [
+        "the_last_king",
+        "return_to_the_last_king"
+      ],
+      "name": "02-King"
+    },
+    {
+      "codes": [
+        "echoes_of_the_past",
+        "return_to_echoes_of_the_past"
+      ],
+      "name": "03-Echoes"
+    },
+    {
+      "codes": [
+        "the_unspeakable_oath",
+        "return_to_the_unspeakable_oath",
+      ],
+      "name": "04-Oath"
+    },
+    {
+      "codes": [
+        "a_phantom_of_truth",
+        "return_to_a_phantom_of_truth"
+      ],
+      "name": "05-Phantom"
+    },
+    {
+      "codes": [
+        "the_pallid_mask",
+        "return_to_the_pallid_mask"
+      ],
+      "name": "06-PallidMask"
+    },
+    {
+      "codes": [
+        "black_stars_rise",
+        "return_to_black_stars_rise"
+      ],
+      "name": "07-BlackStarsRise"
+    },
+    {
+      "codes": [
+        "dim_carcosa",
+        "return_to_dim_carcosa"
+      ],
+      "name": "08-DimCarcosa"
+    }
+  ]
+}

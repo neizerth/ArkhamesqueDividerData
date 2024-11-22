@@ -1,0 +1,26 @@
+{
+  "code": "eoe",
+  "name": "08-EdgeoftheEarth",
+  "scenarios": [
+    {
+      "code": "ice_and_death",
+      "name": "01"
+    },
+    {
+      "code": "to_the_forbidden_peaks",
+      "name": "02"
+    },
+    {
+      "code": "city_of_the_elder_things",
+      "name": "03"
+    },
+    {
+      "code": "the_heart_of_madness",
+      "name": "04"
+    },
+    {
+      "code": "fatal_mirage",
+      "name": "00"
+    }
+  ]
+}
