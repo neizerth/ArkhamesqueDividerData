@@ -1,0 +1,38 @@
+{
+  "code": "zcf",
+  "name": "CyclopeanFoundations",
+  "scenarios": [
+    {
+      "code": "lost_moorings",
+      "name": "1"
+    },
+    {
+      "code": "going_twice",
+      "name": "2"
+    },
+    {
+      "code": "private_lives",
+      "name": "3"
+    },
+    {
+      "code": "crumbling_masonry",
+      "name": "4"
+    },
+    {
+      "code": "across_dreadful_waters",
+      "name": "5"
+    },
+    {
+      "code": "blood_from_stones",
+      "name": "6"
+    },
+    {
+      "code": "pyroclastic_flow",
+      "name": "7"
+    },
+    {
+      "code": "tomb_of_dead_dreams",
+      "name": "8"
+    }
+  ]
+}
