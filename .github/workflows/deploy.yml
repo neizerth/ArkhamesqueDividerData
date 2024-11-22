@@ -41,6 +41,11 @@ jobs:
         run: npm install
       - name: Build
         run: npm run start
+        env:
+          GOOGLE_SERVICE_ACCOUNT_CLIENT_EMAIL: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_CLIENT_EMAIL }}
+          GOOGLE_SERVICE_ACCOUNT_CLIENT_ID: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_CLIENT_ID }}
+          GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
