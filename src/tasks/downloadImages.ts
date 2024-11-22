@@ -1,7 +1,7 @@
 import { getGoogleDriveFile } from "@/components/googleDrive/getGoogleDriveFile";
 import { getGoogleDriveFolderContents } from "@/components/googleDrive/getGoogleDriveFolderContents"
 import { CACHED_IMAGES_DIR, GOOGLE_DRIVE_FOLDER_ID } from "@/config/app";
-import { delay, retry } from "@/util/promise";
+import { delay } from "@/util/promise";
 import { flattenDir, mkDir } from "@/util/fs";
 import { drive_v3 } from "@googleapis/drive";
 import path from "path";
