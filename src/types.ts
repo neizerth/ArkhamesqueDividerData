@@ -27,4 +27,5 @@ type WithCode = HasCode | HasMultipleCodes
 
 export type IArkhamesqueStoryScenario = {
   name: string;
+  number_text?: string;
 } & WithCode;
