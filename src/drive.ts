@@ -10,7 +10,7 @@ export const getDriveService = async () => {
     credentials: {
       client_email: process.env.GOOGLE_SERVICE_ACCOUNT_CLIENT_EMAIL,
       client_id: process.env.GOOGLE_SERVICE_ACCOUNT_CLIENT_ID,
-      private_key: process.env.GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY
+      private_key: process.env.GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY.replace(/\\n/g, "\n")
     },
     scopes: [
       'https://www.googleapis.com/auth/drive',
