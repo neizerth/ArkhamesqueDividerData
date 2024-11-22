@@ -1,23 +1,25 @@
 {
   "name": "arkhamesque-divider-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "types": "build/types.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "build": "tsc && tsc-alias"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@types/decompress": "^4.2.7",
+    "@types/node": "^22.8.5",
+    "tsc-alias": "^1.8.10",
     "@googleapis/drive": "^8.14.0",
     "decompress": "^4.2.1",
     "dotenv": "^16.4.5",
-    "tsx": "^4.19.2"
-  },
-  "devDependencies": {
-    "@types/decompress": "^4.2.7",
-    "@types/node": "^22.8.5"
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
   }
 }
