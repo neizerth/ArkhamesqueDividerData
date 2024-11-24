@@ -1,0 +1,18 @@
+[
+  {
+    "type": "bonded",
+    "name": "Bonded"
+  },
+  {
+    "type": "customizations",
+    "name": "Customizable"
+  },
+  {
+    "type": "weakness",
+    "name": "Weakness"
+  },
+  {
+    "type": "basic_weakness",
+    "name": "Basic-Weakness"
+  }
+]

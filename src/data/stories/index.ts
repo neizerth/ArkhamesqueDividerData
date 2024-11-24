@@ -1,22 +1,27 @@
 import campaigns from "./campaigns"
-import custom from "./custom";
-import pnp from "./pnp.json";
+import custom from "./custom"
+import pnp from "./pnp.json"
 import standalone from "./standalone.json"
+import challenge from "./challenge.json"
 
 export default [
   {
     data: campaigns
   },
   {
-    prefix: 'FanMade',
+    prefix: 'FanMade-',
     data: custom
   },
   {
-    prefix: 'PrintandPlay',
+    prefix: 'PrintandPlay-',
     data: pnp
   },
   {
-    prefix: 'Standalone',
+    prefix: 'Standalone-',
     data: standalone
+  },
+  {
+    prefix: 'Challenge-',
+    data: challenge
   }
 ]

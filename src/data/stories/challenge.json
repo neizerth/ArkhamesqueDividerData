@@ -1,26 +1,26 @@
 [
 	{
-		"code": "all_or_nothing",
-		"name": "AllOrNothing",
+		"code": "aon",
+		"name": "AllOrNothing"
 	},
 	{
-		"code": "bad_blood",
+		"code": "bad",
 		"name": "BadBlood"
 	},
 	{
-		"code": "by_the_book",
+		"code": "btb",
 		"name": "ByTheBook"
 	},
 	{
-		"code": "laid_to_rest",
+		"code": "ltr",
 		"name": "LaidToRest"
 	},
 	{
-		"code": "read_or_die",
+		"code": "rod",
 		"name": "ReadOrDie"
 	},
 	{
-		"code": "red_tide_rising",
+		"code": "rtr",
 		"name": "RedTideRising"
 	}
 ]

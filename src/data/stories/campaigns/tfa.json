@@ -5,14 +5,14 @@
   "scenarios": [
     {
       "codes": [
-        "the_untamed_wilds",
+        "wilds",
         "return_to_the_untamed_wilds"
       ],
-      "name": "-01-UntamnedWilds"
+      "name": "-01-UntamedWilds"
     },
     {
       "codes": [
-        "the_doom_of_eztli",
+        "eztli",
         "return_to_the_doom_of_eztli"
       ],
       "name": "-02-DoomofEztli"
@@ -40,10 +40,24 @@
     },
     {
       "codes": [
+        "the_city_of_archives",
+        "return_to_the_city_of_archives"
+      ],
+      "name": "-06-CityofArchives"
+    },
+    {
+      "codes": [
+        "the_depths_of_yoth",
+        "return_to_the_depths_of_yoth"
+      ],
+      "name": "-07-DepthsofYoth"
+    },
+    {
+      "codes": [
         "shattered_aeons",
         "return_to_shattered_aeons"
       ],
-      "name": "-06-ShatteredAeons"
+      "name": "-08-ShatteredAeons"
     }
   ]
 }

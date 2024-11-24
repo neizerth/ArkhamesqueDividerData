@@ -1,11 +1,18 @@
 export type IArkhamesqueBuild = {
   prefix: string;
-  stories: IArkhamesqueCategory[]
+  stories: IArkhamesqueCategory<IArkhamesqueStory>[]
+  player: IArkhamesqueCategory<IArkhamesquePlayerItem>[]
 }
 
-export type IArkhamesqueCategory = {
+export type IArkhamesquePlayerItem = {
+  name: string;
+  type: string;
+  xp?: number;
+}
+
+export type IArkhamesqueCategory<T> = {
   prefix?: string;
-  data: IArkhamesqueStory[]
+  data: T[]
 }
 
 export type IArkhamesqueStory = {
@@ -13,6 +20,10 @@ export type IArkhamesqueStory = {
   name: string;
   return_name?: string;
   scenarios?: IArkhamesqueStoryScenario[]
+  campaigns?: Array<{
+    id: string
+    name: string
+  }>
 }
 
 export type IArkhamesqueStoryScenarioWithCode = IBaseScenario & {

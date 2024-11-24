@@ -1,7 +1,11 @@
 import { IArkhamesqueBuild } from '@/types';
 import stories from './stories';
+import player from './player';
 
-export default {
+const build: IArkhamesqueBuild = {
   prefix: 'ACHD-',
-  stories
-} as IArkhamesqueBuild;
+  stories,
+  player
+}
+
+export default build;

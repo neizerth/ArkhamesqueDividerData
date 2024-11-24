@@ -4,51 +4,52 @@
   "scenarios": [
     {
       "code": "riddles_and_rain",
-      "name": "-01"
+      "name": "-01",
+      "number_text": "5–A"
     },
     {
-      "code": "dead_heat",
+      "code": "marrakesh",
       "name": "-02",
       "number_text": "11–B"
     },
     {
-      "code": "sanguine_shadows",
+      "code": "buenos_aires",
       "name": "-03",
       "number_text": "16–D"
     },
     {
-      "code": "dealings_in_the_dark",
+      "code": "istanbul",
       "name": "-04",
       "number_text": "21–F"
     },
     {
-      "code": "dancing_mad",
+      "code": "havana",
       "name": "-05",
       "number_text": "28–I"
     },
     {
-      "code": "on_thin_ice",
+      "code": "anchorage",
       "name": "-06",
       "number_text": "33–K"
     },
     {
-      "code": "dogs_of_war",
+      "code": "alexandria",
       "name": "-07",
       "number_text": "38–N"
     },
     {
-      "code": "shades_of_suffering",
+      "code": "kuala_lampur",
       "name": "-08",
       "number_text": "46–Q"
     },
     {
-      "code": "without_a_trace",
+      "code": "bermuda_triangle",
       "name": "-09",
       "number_text": "56–Y"
     },
     {
-      "code": "congress_of_the_keys",
-      "name": "10",
+      "code": "tunguska",
+      "name": "-10",
       "number_text": "59–Z"
     }
   ]

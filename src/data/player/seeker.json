@@ -1,0 +1,93 @@
+[
+  {
+    "type": "investigators",
+    "name": "-Investigators"
+  },
+  {
+    "type": "faction",
+    "name": "-Investigators3"
+  },
+  {
+    "type": "faction",
+    "name": "-0",
+    "xp": 0
+  },
+  {
+    "type": "faction",
+    "name": "-1",
+    "xp": 1
+  },
+  {
+    "type": "faction",
+    "name": "-3",
+    "xp": 3
+  },
+  {
+    "type": "faction",
+    "name": "-4",
+    "xp": 4
+  },
+  {
+    "type": "faction",
+    "name": "-5",
+    "xp": 5
+  },
+  
+  {
+    "type": "asset",
+    "name": "-Assets"
+  },
+  {
+    "type": "asset",
+    "name": "-Asset-1",
+    "xp": 0
+  },
+  {
+    "type": "asset",
+    "name": "-Asset-2",
+    "xp": 1
+  },
+  {
+    "type": "asset",
+    "name": "-Asset-3",
+    "xp": 3
+  },
+  {
+    "type": "event",
+    "name": "-Event"
+  },
+  {
+    "type": "asset",
+    "name": "-Event-1",
+    "xp": 0
+  },
+  {
+    "type": "asset",
+    "name": "-Event-2",
+    "xp": 1
+  },
+  {
+    "type": "asset",
+    "name": "-Event-3",
+    "xp": 3
+  },
+  {
+    "type": "skill",
+    "name": "-Skill"
+  },
+  {
+    "type": "asset",
+    "name": "-Skill-1",
+    "xp": 0
+  },
+  {
+    "type": "asset",
+    "name": "-Skill-2",
+    "xp": 1
+  },
+  {
+    "type": "asset",
+    "name": "-Skill-3",
+    "xp": 3
+  }
+]
