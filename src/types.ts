@@ -2,21 +2,31 @@ export type IArkhamesqueBuild = {
   prefix: string;
   stories: IArkhamesqueStoriesCategory[]
   player: IArkhamesquePlayerCategory[]
+  investigators: IArkhamesqueInvestigatorCategory[]
 }
 
 export type IArkhamesqueStoriesCategory = IArkhamesqueCategory<IArkhamesqueStory>;
 export type IArkhamesquePlayerCategory = IArkhamesqueCategory<IArkhamesquePlayerItem>;
+export type IArkhamesqueInvestigatorCategory = IArkhamesqueCategory<IArkhamesqueInvestigator>;
+
+export type IArkhamesqueInvestigator = {
+  prefix?: string
+  name: string
+  code: string
+}
 
 export type IArkhamesquePlayerItem = {
   name: string
   type: string
-  xp?: number
+  xp?: number | boolean
   icon?: boolean
   previewIcon?: boolean
+  faction?: string
 }
 
 export type IArkhamesqueCategory<T> = {
-  prefix?: string;
+  prefix?: string
+  code?: string
   data: T[]
 }
 

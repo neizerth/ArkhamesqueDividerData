@@ -2,26 +2,31 @@
   {
     "type": "bonded",
     "name": "Bonded",
-    "icon": false
+    "icon": false,
+    "xp": false
   },
   {
     "type": "customizations",
     "name": "Customizable",
-    "icon": false
+    "icon": false,
+    "xp": false
   },
   {
     "type": "upgrade",
     "name": "Customizable",
-    "icon": false
+    "icon": false,
+    "xp": false
   },
   {
     "type": "weakness",
     "name": "Weakness",
-    "icon": false
+    "icon": false,
+    "xp": false
   },
   {
     "type": "basic_weakness",
     "name": "Basic-Weakness",
-    "icon": false
+    "icon": false,
+    "xp": false
   }
 ]

@@ -54,29 +54,35 @@
   },
   {
     "type": "asset",
-    "name": "-asset"
+    "name": "-asset",
+    "previewIcon": false
   },
   {
     "type": "asset",
     "name": "-assets1",
-    "xp": 0
+    "xp": 0,
+    "previewIcon": false
   },
   {
     "type": "asset",
     "name": "-assets2",
-    "xp": 1
+    "xp": 1,
+    "previewIcon": false
   },
   {
     "type": "asset",
     "name": "-assets3",
-    "xp": 3
+    "xp": 3,
+    "previewIcon": false
   },
   {
     "type": "event",
-    "name": "-event"
+    "name": "-event",
+    "icon": false
   },
   {
     "type": "skill",
-    "name": "-skill"
+    "name": "-skill",
+    "icon": false
   }
 ]

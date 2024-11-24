@@ -1,0 +1,27 @@
+{
+  "prefix": "COR-",
+  "code": "core",
+  "data": [
+    {
+      "prefix": "ALT-",
+      "name": "Roland-Banks",
+      "code": "01001"
+    },
+    {
+      "name": "Daisy-Walker",
+      "code": "01002"
+    },
+    {
+      "name": "Wendy-Adams",
+      "code": "01005"
+    },
+    {
+      "name": "Skids-O-Toole",
+      "code": "01003"
+    },
+    {
+      "name": "Agnes-Baker",
+      "code": "01004"
+    }
+  ]
+}
