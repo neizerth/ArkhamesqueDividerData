@@ -1,13 +1,18 @@
 export type IArkhamesqueBuild = {
   prefix: string;
-  stories: IArkhamesqueCategory<IArkhamesqueStory>[]
-  player: IArkhamesqueCategory<IArkhamesquePlayerItem>[]
+  stories: IArkhamesqueStoriesCategory[]
+  player: IArkhamesquePlayerCategory[]
 }
 
+export type IArkhamesqueStoriesCategory = IArkhamesqueCategory<IArkhamesqueStory>;
+export type IArkhamesquePlayerCategory = IArkhamesqueCategory<IArkhamesquePlayerItem>;
+
 export type IArkhamesquePlayerItem = {
-  name: string;
-  type: string;
-  xp?: number;
+  name: string
+  type: string
+  xp?: number
+  icon?: boolean
+  previewIcon?: boolean
 }
 
 export type IArkhamesqueCategory<T> = {

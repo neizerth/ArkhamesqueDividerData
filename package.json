@@ -1,6 +1,6 @@
 {
-  "name": "arkhamesque-divider-data",
-  "version": "1.0.5",
+  "name": "arkhamesque-classic-divider-data",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
   "types": "build/types.d.ts",

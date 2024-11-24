@@ -1,0 +1,27 @@
+[
+  {
+    "type": "bonded",
+    "name": "Bonded",
+    "icon": false
+  },
+  {
+    "type": "customizations",
+    "name": "Customizable",
+    "icon": false
+  },
+  {
+    "type": "upgrade",
+    "name": "Customizable",
+    "icon": false
+  },
+  {
+    "type": "weakness",
+    "name": "Weakness",
+    "icon": false
+  },
+  {
+    "type": "basic_weakness",
+    "name": "Basic-Weakness",
+    "icon": false
+  }
+]

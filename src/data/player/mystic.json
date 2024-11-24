@@ -1,11 +1,13 @@
 [
   {
     "type": "investigators",
-    "name": "-Investigators"
+    "name": "-Investigators",
+    "previewIcon": false
   },
   {
     "type": "faction",
-    "name": "-Investigators3"
+    "name": "-Investigators-3",
+    "icon": false
   },
   {
     "type": "faction",
@@ -16,6 +18,12 @@
     "type": "faction",
     "name": "-1",
     "xp": 1
+  },
+  {
+    "type": "faction",
+    "name": "-2",
+    "xp": 2,
+    "icon": false
   },
   {
     "type": "faction",
@@ -35,59 +43,71 @@
   
   {
     "type": "asset",
-    "name": "-Assets"
+    "name": "-Assets",
+    "previewIcon": false
+  },
+  {
+    "type": "asset",
+    "name": "-Assets-0",
+    "xp": 0,
+    "previewIcon": false
   },
   {
     "type": "asset",
     "name": "-Assets-1",
-    "xp": 0
-  },
-  {
-    "type": "asset",
-    "name": "-Assets-2",
-    "xp": 1
+    "xp": 1,
+    "previewIcon": false
   },
   {
     "type": "asset",
     "name": "-Assets-3",
-    "xp": 3
+    "xp": 3,
+    "previewIcon": false
   },
   {
     "type": "event",
-    "name": "-Event"
+    "name": "-Event",
+    "previewIcon": false
   },
   {
-    "type": "asset",
+    "type": "event",
+    "name": "-Event-0",
+    "xp": 0,
+    "previewIcon": false
+  },
+  {
+    "type": "event",
     "name": "-Event-1",
-    "xp": 0
+    "xp": 1,
+    "previewIcon": false
   },
   {
-    "type": "asset",
-    "name": "-Event-2",
-    "xp": 1
-  },
-  {
-    "type": "asset",
+    "type": "event",
     "name": "-Event-3",
-    "xp": 3
+    "xp": 3,
+    "previewIcon": false
   },
   {
     "type": "skill",
-    "name": "-Skill"
+    "name": "-Skill",
+    "previewIcon": false
   },
   {
-    "type": "asset",
+    "type": "skill",
+    "name": "-Skill-0",
+    "xp": 0,
+    "previewIcon": false
+  },
+  {
+    "type": "skill",
     "name": "-Skill-1",
-    "xp": 0
+    "xp": 1,
+    "previewIcon": false
   },
   {
-    "type": "asset",
-    "name": "-Skill-2",
-    "xp": 1
-  },
-  {
-    "type": "asset",
+    "type": "skill",
     "name": "-Skill-3",
-    "xp": 3
+    "xp": 3,
+    "previewIcon": false
   }
 ]

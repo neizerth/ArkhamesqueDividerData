@@ -5,6 +5,7 @@ import guardian from './guardian.json'
 import rogue from './rogue.json'
 import neutral from './neutral.json'
 import multiclass from './multiclass.json'
+import other from './other.json'
 import { IArkhamesquePlayerItem } from '@/types'
 
 const withFaction = (
@@ -17,31 +18,34 @@ const withFaction = (
 
 export default [
   {
-    prefix: 'Survivor-',
+    prefix: 'Survivor',
     data: withFaction('survivor', survivor)
   },
   {
-    prefix: 'Mystic-',
+    prefix: 'Mystic',
     data: withFaction('mystic', mystic)
   },
   {
-    prefix: 'Seeker-',
+    prefix: 'Seeker',
     data: withFaction('seeker', seeker)
   },
   {
-    prefix: 'Guardian-',
+    prefix: 'Guardian',
     data: withFaction('guardian', guardian)
   },
   {
-    prefix: 'Rogue-',
+    prefix: 'Rogue',
     data: withFaction('rogue', rogue)
   },
   {
-    prefix: 'Neutral-',
+    prefix: 'Neutral',
     data: withFaction('neutral', neutral)
   },
   {
-    prefix: 'Multiclass-',
+    prefix: 'Mutli-Class',
     data: withFaction('multiclass', multiclass)
+  },
+  {
+    data: other
   }
 ]
