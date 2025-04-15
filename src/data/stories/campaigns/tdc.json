@@ -1,0 +1,46 @@
+{
+  "code": "ptc",
+  "name": "11-TheDrownedCity",
+  "scenarios": [
+    {
+      "code": "one_last_job",
+      "name": "-1"
+    },
+    {
+      "code": "the_western_wall",
+      "name": "-2"
+    },
+    {
+      "code": "the_drowned_quarter",
+      "name": "-3"
+    },
+    {
+      "code": "the_apiary",
+      "name": "-4"
+    },
+    {
+      "code": "the_grand_vault",
+      "name": "-5"
+    },
+    {
+      "code": "court_of_the_ancients",
+      "name": "-6"
+    },
+    {
+      "code": "obsidian_canyons",
+      "name": "-7"
+    },
+    {
+      "code": "sepulchre_of_the_sleeper",
+      "name": "-8"
+    },
+    {
+      "code": "the_doom_of_arkham_part_1",
+      "name": "-9"
+    },
+    {
+      "code": "the_doom_of_arkham_part_2",
+      "name": "-10"
+    }
+  ]
+}
