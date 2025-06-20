@@ -12,8 +12,6 @@ export const downloadImages = async () => {
 	const credentials = `${IMAGES_ASSETS_USER}:${IMAGES_ASSETS_PASSWORD}`
 	const hash = btoa(credentials);
 
-	console.log(credentials)
-
   const { body } = await fetch(IMAGES_ASSETS_URL, {
 		headers: {
 			Authorization: `Basic ${hash}`
