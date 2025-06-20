@@ -1,6 +1,6 @@
 {
   "name": "arkhamesque-classic-divider-data",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "types": "build/types.d.ts",
@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@googleapis/drive": "^8.14.0",
     "@types/decompress": "^4.2.7",
     "@types/node": "^22.8.5",
     "decompress": "^4.2.1",

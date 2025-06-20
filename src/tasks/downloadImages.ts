@@ -1,49 +1,23 @@
-import { getGoogleDriveFile } from "@/components/googleDrive/getGoogleDriveFile";
-import { getGoogleDriveFolderContents } from "@/components/googleDrive/getGoogleDriveFolderContents"
-import { CACHED_IMAGES_DIR, GOOGLE_DRIVE_FOLDER_ID } from "@/config/app";
-import { delay } from "@/util/promise";
+import { CACHED_IMAGES_DIR, IMAGES_ASSETS_URL } from "@/config/app";
 import { flattenDir, mkDir } from "@/util/fs";
-import { drive_v3 } from "@googleapis/drive";
-import path from "path";
-import fs, { unlink } from "fs";
+import fs from "fs";
 import decompress from "decompress";
+import { Readable } from "stream";
+import { writeFile } from "fs/promises";
+import { ReadableStream } from "stream/web";
 
 export const downloadImages = async () => {
   mkDir(CACHED_IMAGES_DIR);
 
-  await delay(100);
-  const contents = await getGoogleDriveFolderContents(GOOGLE_DRIVE_FOLDER_ID);
+  const { body } = await fetch(IMAGES_ASSETS_URL);
 
-  for (const file of contents) {
-    const { name } = file;
-    const isZip = name.endsWith('.zip');
+	const filePath = `${CACHED_IMAGES_DIR}/images.zip`;
 
-    if (!isZip) {
-      continue;
-    }
+	const stream = Readable.fromWeb(body as ReadableStream);
+	await writeFile(filePath, stream);
 
-    const filePath = await downloadSingle(file);
-
-    await decompress(filePath, CACHED_IMAGES_DIR);
-    fs.unlinkSync(filePath);
-  }
-
-  flattenDir(CACHED_IMAGES_DIR);
+	await decompress(filePath, CACHED_IMAGES_DIR);
+   flattenDir(CACHED_IMAGES_DIR);
+	fs.unlinkSync(filePath);
 }
 
-export const downloadSingle = async (file: drive_v3.Schema$File) => {
-  const { name } = file;
-  
-  const filePath = path.join(CACHED_IMAGES_DIR, name);
-  const stream = fs.createWriteStream(filePath);
-
-  await delay(100);
-  await getGoogleDriveFile({
-    ...file,
-    stream
-  });
-
-  stream.close();
-
-  return filePath;
-} 
