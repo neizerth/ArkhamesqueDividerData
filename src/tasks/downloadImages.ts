@@ -1,4 +1,4 @@
-import { CACHED_IMAGES_DIR, IMAGES_ASSETS_URL } from "@/config/app";
+import { CACHED_IMAGES_DIR, IMAGES_ASSETS_PASSWORD, IMAGES_ASSETS_URL, IMAGES_ASSETS_USER } from "@/config/app";
 import { flattenDir, mkDir } from "@/util/fs";
 import fs from "fs";
 import decompress from "decompress";
@@ -9,7 +9,16 @@ import { ReadableStream } from "stream/web";
 export const downloadImages = async () => {
   mkDir(CACHED_IMAGES_DIR);
 
-  const { body } = await fetch(IMAGES_ASSETS_URL);
+	const credentials = `${IMAGES_ASSETS_USER}:${IMAGES_ASSETS_PASSWORD}`
+	const hash = btoa(credentials);
+
+	console.log(credentials)
+
+  const { body } = await fetch(IMAGES_ASSETS_URL, {
+		headers: {
+			Authorization: `Basic ${hash}`
+		}
+	});
 
 	const filePath = `${CACHED_IMAGES_DIR}/images.zip`;
 

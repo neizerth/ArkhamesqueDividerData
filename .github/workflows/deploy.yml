@@ -43,6 +43,8 @@ jobs:
         run: npm run start
         env:
           IMAGES_ASSETS_URL: ${{ secrets.IMAGES_ASSETS_URL }}
+          IMAGES_ASSETS_USER: ${{ secrets.IMAGES_ASSETS_USER }}
+          IMAGES_ASSETS_PASSWORD: ${{ secrets.IMAGES_ASSETS_PASSWORD }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
