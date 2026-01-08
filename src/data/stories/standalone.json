@@ -42,5 +42,9 @@
 	{
 		"code": "cotr",
 		"name": "Rougarou"
+	},
+	{
+		"code": "film_fatale",
+		"name": "Film"
 	}
 ]
