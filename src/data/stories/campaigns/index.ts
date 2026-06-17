@@ -9,5 +9,6 @@ import eoe from "./eoe.json";
 import tsk from "./tsk.json";
 import fhv from "./fhv.json";
 import tdc from "./tdc.json";
+import boa from "./boa.json";
 
-export default [core, dwl, ptc, tcu, tfa, tic, tde, eoe, tsk, fhv, tdc];
+export default [core, dwl, ptc, tcu, tfa, tic, tde, eoe, tsk, fhv, tdc, boa];

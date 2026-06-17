@@ -1,0 +1,24 @@
+{
+  "code": "boa",
+  "name": "Ch2-01-BoAsh",
+  "scenarios": [
+    {
+      "codes": [
+        "spreading_flames"
+      ],
+      "name": "4"
+    },
+    {
+      "codes": [
+        "smoke_and_mirrors"
+      ],
+      "name": "3"
+    },
+    {
+      "codes": [
+        "queen_of_ash"
+      ],
+      "name": "5"
+    }
+  ]
+}
