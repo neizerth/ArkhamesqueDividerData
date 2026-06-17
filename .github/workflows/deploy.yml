@@ -29,6 +29,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    env:
+      IMAGES_ASSETS_URL: ${{ secrets.IMAGES_ASSETS_URL }}
+      IMAGES_ASSETS_USER: ${{ secrets.IMAGES_ASSETS_USER }}
+      IMAGES_ASSETS_PASSWORD: ${{ secrets.IMAGES_ASSETS_PASSWORD }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -39,12 +43,10 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
+      - name: Check images assets connection
+        run: npm run check:images
       - name: Build
         run: npm run start
-        env:
-          IMAGES_ASSETS_URL: ${{ secrets.IMAGES_ASSETS_URL }}
-          IMAGES_ASSETS_USER: ${{ secrets.IMAGES_ASSETS_USER }}
-          IMAGES_ASSETS_PASSWORD: ${{ secrets.IMAGES_ASSETS_PASSWORD }}
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact

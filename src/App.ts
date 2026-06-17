@@ -1,3 +1,4 @@
+import { checkImagesConnection } from "@/tasks/checkImagesConnection";
 import { downloadImages } from "@/tasks/downloadImages";
 import { mkDir } from "./util/fs";
 import { CACHE_DIR } from "./config/app";
@@ -11,6 +12,9 @@ export class App {
     await this.init();
 
     switch (type) {
+      case 'check-images':
+        await checkImagesConnection();
+      break;
       case 'index':
         createIndex();
       break;
