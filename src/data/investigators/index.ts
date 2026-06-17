@@ -5,5 +5,5 @@ import decks from './decks';
 export default [
   ...Object.values(campaigns),
   promo,
-  decks
+  ...decks
 ]
