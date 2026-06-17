@@ -14,7 +14,8 @@ export const downloadImages = async () => {
 	const headers = getCredentialsHeaders();
 
   const { body } = await fetch(IMAGES_ASSETS_URL, {
-		headers
+		headers,
+		signal: AbortSignal.timeout(5000),
 	});
 
 	const filePath = `${CACHED_IMAGES_DIR}/images.zip`;
