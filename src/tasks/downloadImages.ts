@@ -7,15 +7,13 @@ import { writeFile } from "fs/promises";
 import { ReadableStream } from "stream/web";
 import { getCredentialsHeaders } from "@/util/common";
 
-
 export const downloadImages = async () => {
-  mkDir(CACHED_IMAGES_DIR);
+	mkDir(CACHED_IMAGES_DIR);
 
 	const headers = getCredentialsHeaders();
 
-  const { body } = await fetch(IMAGES_ASSETS_URL, {
+	const { body } = await fetch(IMAGES_ASSETS_URL, {
 		headers,
-		signal: AbortSignal.timeout(5000),
 	});
 
 	const filePath = `${CACHED_IMAGES_DIR}/images.zip`;
@@ -24,7 +22,6 @@ export const downloadImages = async () => {
 	await writeFile(filePath, stream);
 
 	await decompress(filePath, CACHED_IMAGES_DIR);
-   flattenDir(CACHED_IMAGES_DIR);
+	flattenDir(CACHED_IMAGES_DIR);
 	fs.unlinkSync(filePath);
-}
-
+};
